@@ -1,0 +1,19 @@
+.form-group input:invalid+b:before {
+    content: "Introduce una cifra entre 1 y 120";
+    color: red;
+  }
+  
+  input[type="text"]:invalid~label {
+    color: red;
+  }
+  
+  .address {
+    position: relative;
+    padding-left: 100px;
+  }
+  
+  .address label {
+    position: absolute;
+    left: 0;
+    line-height: 30px;
+  }
