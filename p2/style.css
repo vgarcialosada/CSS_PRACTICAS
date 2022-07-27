@@ -3,7 +3,7 @@
     color: red;
   }
   
-  input[type="text"]:invalid~label {
+  input[type="number"]:invalid~label {
     color: red;
   }
   
