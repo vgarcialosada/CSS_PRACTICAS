@@ -1,0 +1,27 @@
+.round {
+  height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 1%;
+}
+
+.r {
+  background-color: red;
+}
+.g {
+  background-color: rgb(0, 255, 0);
+}
+.u {
+  background-color: blue;
+}
+.p {
+  background-color: rgb(255, 0, 255);
+}
+.c{background-color: rgb(0, 255, 255);}
+.y{background-color: rgb(255,255,0);}
+.icons {
+  position: fixed;
+    margin-top: 3%;
+  display: inline-block;
+}
