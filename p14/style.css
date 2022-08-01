@@ -1,0 +1,47 @@
+#divRed {
+  background-color: red;
+  width: 500px;
+  height: 500px;
+  outline: 20px;
+  margin-top: 5%;
+  margin-left: 5%;
+  border: 5px black;
+  border-style: solid;
+  position: relative;
+font-weight: bold;}
+
+.smallDiv {
+  background-color: greenyellow;
+  border: 1px black;
+  border-style: solid;
+  border-radius: 50px;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#div1 {
+  position: absolute;
+  top: -5%;
+  left: -5%;
+}
+
+#div2 {
+  position: absolute;
+  top: -5%;
+  left: 95%;
+}
+
+#div3 {
+  position: absolute;
+  top: 95%;
+  left: -5%;
+}
+
+#div4 {
+    position: absolute;
+    top: 95%;
+    left: 95%;
+  }
+  

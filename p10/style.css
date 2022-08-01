@@ -1,0 +1,14 @@
+body{background-color: bisque;}
+
+div{
+  background-color: azure;
+  width: 10%;
+  height:15%;
+  border: 1px black;
+  border-style: solid;
+  margin-left:40%;
+}
+
+#textLeft{text-align: left;}
+#textCenter{text-align: center;}
+#textRight{text-align: right;}

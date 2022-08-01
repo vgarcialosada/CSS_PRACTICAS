@@ -1,14 +1,24 @@
-div{
-  width: 50%;
-  height: 50%;
-  margin-left: 5%;
-  border: 10px;
-  border-top-style: dotted;
-  border-top-color: green;
-  border-right-style: dashed;
-  border-right-color: blue;
-  border-left-style: double;
-  border-bottom-style: solid;
-  border-bottom-color: red;
-  padding: 5%;
+h1 {
+    color:red; 
 }
+
+h1:hover{color:yellowgreen}
+
+p {display:inline-block;
+    width:20%;
+    margin-left:40px;
+  }
+
+  p:active {
+    background-color: yellow;
+    color:rgb(60, 107, 236);
+  }
+  
+.vl {
+    border-left: 5px solid green;
+    padding: 10;
+    display:inline-block;
+    height: auto;
+  }
+
+  html{background-color: aquamarine;}
