@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.whiteText {
+  color: white;
+}
+
+.item1 {
+  grid-area: header;
+  background-color: black;
+}
+.item2 {
+  grid-area: menu;
+  background-color: red;
+}
+.item3 {
+  grid-area: hero;
+  background-color: blue;
+}
+.item4 {
+  grid-area: main;
+  background-color: darkblue;
+}
+.item5 {
+  grid-area: image;
+  background-color: cyan;
+}
+.item6 {
+  grid-area: extra;
+  background-color: rgb(70, 168, 100);
+}
+.item7 {
+  grid-area: banner;
+  background-color: yellow;
+}
+
+@media only screen and (max-width: 425px) {
+  .grid-container {
+    grid-template-areas:
+      "header"
+      "menu"
+      "hero"
+      "main"
+      "banner"
+      "extra"
+      "image";
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 1023px) {
+
+  .grid-container {
+    grid-template-areas:
+      "header header header header"
+      "hero hero hero hero"
+      "hero hero hero hero"
+      "hero hero hero hero"
+      "menu main main main"
+      "menu main main main"
+      "menu main main main"
+      "menu banner banner banner"
+      "menu banner banner banner"
+      "menu extra extra image"
+      "menu extra extra image";
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .grid-container {
+    grid-template-areas:
+      "header menu menu menu"
+      "hero hero hero hero"
+      "hero hero hero hero"
+      "hero hero hero hero"
+      "hero hero hero hero"
+      "hero hero hero hero"
+      "hero hero hero hero"
+      "main main blank image"
+      "main main blank image"
+      "main main blank extra"
+      "main main blank extra"
+      "banner banner banner banner"
+      "banner banner banner banner";
+  }
+}
