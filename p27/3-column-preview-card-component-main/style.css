@@ -1,0 +1,90 @@
+html {
+  color: white;
+}
+
+h2 {
+  font-family: "Big Shoulders Display";
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+p {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--color-white-transparent75);
+  margin-top: 1.5em;
+  letter-spacing: 1px;
+}
+button {
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 10px 30px;
+  display: inline-block;
+  border: 2px solid transparent;
+  margin-top: 3.5rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat;
+  justify-content: center;
+  height: fit-content;
+  padding: 7.5%;
+}
+.box {
+  height: 100%;
+  padding: 10%;
+  padding-bottom: 3%;
+}
+
+#box1 {
+  background-color: orange;
+}
+#box2 {
+  background-color: rgb(48, 100, 148);
+}
+#box3 {
+  background-color: rgb(18, 102, 81);
+}
+#button1 {
+  color: orange;
+  margin-top: 2.5rem;
+}
+#button2 {
+  color: rgb(48, 100, 148);
+}
+#button3 {
+  color: rgb(18, 102, 81);
+}
+button:hover {
+  border: white 1px solid;
+  color: white !important;
+}
+#button1:hover {
+  background-color: orange;
+}
+#button2:hover {
+  background-color: rgb(48, 100, 148);
+}
+
+#button3:hover {
+  background-color: rgb(18, 102, 81);
+}
+
+@media only screen and (max-width: 760px){
+  .grid-container{
+     grid-template-columns: repeat(1, 3fr);
+     margin-top: 0px;
+  }
+ 
+  #box1 {
+    border-radius: 12px 12px 0px 0px;
+  }
+  #box3{
+    background-color: rgb(18, 102, 81);
+    border-radius: 0px 0px 12px 12px;
+  }
+
+  button{margin-bottom: 5em;}
+}
